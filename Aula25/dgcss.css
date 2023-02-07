@@ -1,0 +1,57 @@
+*{
+    font-family: "Comic sans MS", sans-serif;
+}
+main{
+    display: grid;
+    gap: 0.5em;
+    /* gap = vão, espaço entre eles */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* uma fração, nesse caso 1/4(pois 4 e a soma de 1+2+1), da largura  */
+    grid-template-rows: 46.7vh 25vh 25vh;
+    /* define a aultura das linhas */
+
+    /* sao tres pois, temos tres colunas e tres linhas */
+
+    /* grid-template-areas: "pa pb" "pa pc" "pd pd"; */
+    /* grid-template-areas: "pa pb ph" "pa pc ph" "pa pd ph" "pa pe ph" "pa pf ph" "pa pg ph" ; */
+    /* grid-template-areas: "pf pg ph" "pf pi pi"; */
+    /* grid-template-areas: "pa pb pc pe" "pa pd pd pe" ; */
+    /* grid-template-areas: "pa pb pc"  "pa pb pd" "pe pe pe"; */
+    grid-template-areas: "pa pb pc"  "pa pb pd" "pe pe pe";
+    /* usa as grid areas para formatar a organização dos item na tela */
+}
+main section{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 1em;
+
+    border-radius: 0.5em;
+}
+.a{
+    grid-area: pa;
+    /* funciona como variavel, definindo o nome da area que vai ser modificada pelo grid templete */
+}
+.b{
+    grid-area: pb;
+}
+.c{
+    grid-area: pc;
+}
+.d{
+    grid-area: pd;
+}
+.e{
+    grid-area: pe;
+}
+/* .f{
+    grid-area: pf;
+}
+.g{
+    grid-area: pg;
+}
+.h{
+    grid-area: ph;
+}
+.i{
+    grid-area: pi;
+} */

@@ -1,0 +1,57 @@
+
+/*hr {
+    border: 2px solid #F9F1DC   
+}*/
+/*serve para aulter a espessura e cor do hr*/
+
+body {
+    text-align: center;
+    /*background-color: #FAF8F5;*/
+    background-image: url("image 1 (1).png");
+    background-attachment: fixed, scroll;
+}
+
+picture img {
+
+    border-bottom: 2px solid #F5BD26;
+    border-top: 2px solid #F5BD26;
+
+}
+
+ul {
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+li {
+
+    list-style: none;
+    display: inline;
+    
+}
+
+address {
+
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+
+}
+
+h2{
+
+    font-size: 300%;
+    font-family: garamond;
+    font-style: italic;
+    border-bottom: 2px solid #F9F1DC;
+
+}
+
+p {
+
+    margin: 0 auto;
+    width: 19%;
+    padding: 2em;
+
+}

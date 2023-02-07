@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans Ms", sans-serif;
+}
+header{
+    padding: 1em;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+header > a{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav{
+    margin: 0 auto;
+    width: 99%;
+}
+nav ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ol li{
+    margin: 0.2em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2em;
+}
+nav#menu_icone{
+    visibility: hidden;
+    background-color: rgb(80, 79, 79);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    padding: 2em;
+    z-index: 2;
+}
+nav#menu_icone ol a{
+    color: white;
+}
+nav#menu_icone ol li{
+    color: white;
+    align-self: center;
+    width: 100%;
+}
+nav#menu_icone ol > a{
+    color: red;
+    text-decoration: none;
+    align-self: center;
+    font-size: 200%;
+    width: 100%;
+}
+
+div#desfoque{
+    position: fixed;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+
+
+/*  */
+main{
+    margin: 3em auto;
+    max-width: 80em;
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+main section{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    box-sizing: border-box;
+    flex-basis: 40%; /* largura inical */
+    flex: 1; /* uniformiza a largura */
+}
+
+/* ordem decrescente para os midias funcionarem */
+
+@media screen and (max-width:992px){
+    main section{
+        background-color: aqua;
+        flex-basis: 40%;
+    }
+    nav#menu_grande{
+        visibility: hidden;
+    }
+    header > a{
+        visibility: visible;
+    }
+}
+/* quando o dispositivo tiver menos de 480 pixeis de largura, o background ganha cor verde*/
+@media screen and (max-width:480px){
+    main section{
+        background-color: darkorange;
+        flex-basis: 100%;
+    }
+}
+

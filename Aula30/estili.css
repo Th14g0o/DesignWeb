@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+body{
+    background-color: #0077F6;
+}
+/* Footer e header */
+header, footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+
+}
+header h1{
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+header li a{
+    text-decoration: none;
+    color: #0077F6;
+    font-size: 180%;
+}
+header li a:hover{
+    border-bottom: 3px solid #0077F6;
+}
+li{
+    list-style-type: none;
+}
+
+footer{
+    margin-top: 2em;
+    padding: 5em;
+}
+header ol, footer ol{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header ol li, footer ol li{
+    margin: 0 2.5em;
+}
+
+
+/* main */
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.pc ol{
+    justify-content: center;
+   
+}
+h2.pc{
+    color: white;
+    border-bottom: 3px solid white;
+    width: 90%;
+}
+section ol{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+section ol li{
+    margin: 1em 2em;
+}
+section h2{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+#filme_pc, #jogo_pc, #hq_pc, #serie_pc{
+    width: 290px;
+    height: 326px;
+    border: 3px solid white;
+    border-radius: 1em;
+}
+#filme_pc{
+    background-image: url(imagens/menu/pc/ww.png);
+}
+#jogo_pc{
+    background-image: url(imagens/menu/pc/bak.png);
+}
+#hq_pc{
+    background-image: url(imagens/menu/pc/dos.png);
+}
+#serie_pc{
+    background-image: url(imagens/menu/pc/tf.png);
+}
+#filme_pc a, #jogo_pc a, #hq_pc a, #serie_pc a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 330%;
+
+}
+#filme_pc a:hover, #jogo_pc a:hover, #hq_pc a:hover, #serie_pc a:hover{
+    background-color: rgba(0, 119, 246, 0.3);
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* celular */
+
+/* Respondividade */
+.celular, #menu_cel{
+    visibility: hidden;
+    position: absolute;
+}
+
+@media screen and (max-width:850px){
+    .pc{
+        visibility: hidden;
+        position: absolute;
+    }
+    .celular{
+        visibility: visible;
+        position: relative;
+    }
+    header{
+        justify-content: space-between;
+    }
+    header h1{
+        width: min-content;
+    }
+    header > a{
+        align-self: center;
+    }
+    section ol li{
+        margin: 1em 0.5em;
+    }
+
+    #filme, #jogo, #hq, #serie{
+        width: 681px;
+        height: 207px;
+        border: 3px solid white;
+        border-radius: 1em;
+        font-size: 330%;
+    }
+    #filme{
+        background-image: url(imagens/menu/cel/ww.png);
+    }
+    #jogo{
+        background-image: url(imagens/menu/cel/bak.png);
+    }
+    #hq{
+        background-image: url(imagens/menu/cel/dos.png);
+    }
+    #serie{
+        background-image: url(imagens/menu/cel/tf.png);
+    }
+    #filme a, #jogo a, #hq a, #serie a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #filme a:hover, #jogo a:hover, #hq a:hover, #serie a:hover{
+        background-color: rgba(0, 119, 246, 0.3);
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Align-items</title>
+        <meta charset="utf-8" />
+        <style>
+            *{
+                font-family: "Comic Sans MS", sans-serif;
+            }
+            body{
+                background-color: rgb(44, 44, 44);
+            }
+            h1, h2{
+                color: white;
+            }
+            section{
+                background-color: rgb(0, 206, 221);
+                padding: 1em;
+                display: flex;
+                margin-bottom: 1em;
+                
+            }
+            div{
+                border: 1px solid black;
+                padding: 1em;
+                margin: 1em;
+                color: white;
+                width: 7em;
+                background-color: rgb(59, 112, 156);
+                border-radius: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>display: flex</h1>
+        <h2>align-items: strech(esticam)</h2>
+        <!--fica com altura da maior coluna, padrao -->
+        <section style="align-items: stretch;">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et, tenetur at maxime, quis animi sed soluta dolorem quas laborum voluptates laboriosam nesciunt, facere totam rem nihil nam mollitia vel.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt porro error, doloribus repellat rem commodi voluptate sequi cumque corporis quisquam voluptates earum placeat provident vitae quo non autem sed.</div>
+            <div>Thiago</div>
+            <div>sdfj oghdgb xfgybix fyuig xfgtxfyui gfhi djhkgfjuk dgtdfuiog hfcvnbgfu odjguos fui og uiofdgu iofdhig uifb</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ratione architecto inventore est blanditiis impedit minus reprehenderit rem? Cum fugit alias itaque similique? Harum a ad, eveniet dolores repellat magni?</div>
+            <div>fffffffffff fffff sssss sssssssssss srr rrrrrrrrr rrrrrr rrrrrrtttt</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti labore voluptate error atque natus eligendi enim minima eos, earum voluptatibus facere adipisci, ut similique assumenda, animi ipsam ea magni maiores?</div>  
+        </section>
+
+
+        <h2>align-items: center</h2>
+        <!-- a partir daqui, as areas são equivalentes ao conteudo de cada um, nesse caso tambem o alinhamento vertical e pro centro  -->
+        <section style="align-items: center;">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et, tenetur at maxime, quis animi sed soluta dolorem quas laborum voluptates laboriosam nesciunt, facere totam rem nihil nam mollitia vel.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt porro error, doloribus repellat rem commodi voluptate sequi cumque corporis quisquam voluptates earum placeat provident vitae quo non autem sed.</div>
+            <div>Thiago</div>
+            <div>sdfj oghdgb xfgybix fyuig xfgtxfyui gfhi djhkgfjuk dgtdfuiog hfcvnbgfu odjguos fui og uiofdgu iofdhig uifb</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ratione architecto inventore est blanditiis impedit minus reprehenderit rem? Cum fugit alias itaque similique? Harum a ad, eveniet dolores repellat magni?</div>
+            <div>fffffffffff fffff sssss sssssssssss srr rrrrrrrrr rrrrrr rrrrrrtttt</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti labore voluptate error atque natus eligendi enim minima eos, earum voluptatibus facere adipisci, ut similique assumenda, animi ipsam ea magni maiores?</div>  
+        </section>
+
+        <h2>align-items: flex-end</h2>
+        <!-- alinha verticalmente na parte inferior da tela -->
+        <section style="align-items: flex-end;">       
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et, tenetur at maxime, quis animi sed soluta dolorem quas laborum voluptates laboriosam nesciunt, facere totam rem nihil nam mollitia vel.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt porro error, doloribus repellat rem commodi voluptate sequi cumque corporis quisquam voluptates earum placeat provident vitae quo non autem sed.</div>
+            <div>Thiago</div>
+            <div>sdfj oghdgb xfgybix fyuig xfgtxfyui gfhi djhkgfjuk dgtdfuiog hfcvnbgfu odjguos fui og uiofdgu iofdhig uifb</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ratione architecto inventore est blanditiis impedit minus reprehenderit rem? Cum fugit alias itaque similique? Harum a ad, eveniet dolores repellat magni?</div>
+            <div>fffffffffff fffff sssss sssssssssss srr rrrrrrrrr rrrrrr rrrrrrtttt</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti labore voluptate error atque natus eligendi enim minima eos, earum voluptatibus facere adipisci, ut similique assumenda, animi ipsam ea magni maiores?</div>   
+        </section>
+
+        <h2>align-items: flex-start</h2>
+        <!-- alinha verticalmente na parte superior da tela -->
+        <section style="align-items: flex-start;">
+            
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et, tenetur at maxime, quis animi sed soluta dolorem quas laborum voluptates laboriosam nesciunt, facere totam rem nihil nam mollitia vel.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt porro error, doloribus repellat rem commodi voluptate sequi cumque corporis quisquam voluptates earum placeat provident vitae quo non autem sed.</div>
+            <div>Thiago</div>
+            <div>sdfj oghdgb xfgybix fyuig xfgtxfyui gfhi djhkgfjuk dgtdfuiog hfcvnbgfu odjguos fui og uiofdgu iofdhig uifb</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ratione architecto inventore est blanditiis impedit minus reprehenderit rem? Cum fugit alias itaque similique? Harum a ad, eveniet dolores repellat magni?</div>
+            <div>fffffffffff fffff sssss sssssssssss srr rrrrrrrrr rrrrrr rrrrrrtttt</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti labore voluptate error atque natus eligendi enim minima eos, earum voluptatibus facere adipisci, ut similique assumenda, animi ipsam ea magni maiores?</div>   
+        </section>
+
+        <h2>align-items: baseline</h2>
+        <!-- segue como logica uma base em relação ao texto  -->
+        <section style="align-items: baseline;">
+            <div style="font-size: 1em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. A et, tenetur at maxime, quis animi sed soluta dolorem quas laborum voluptates laboriosam nesciunt, facere totam rem nihil nam mollitia vel.</div>
+            <div style="font-size: 2em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div style="font-size: 0.5em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt porro error, doloribus repellat rem commodi voluptate sequi cumque corporis quisquam voluptates earum placeat provident vitae quo non autem sed.</div>
+            <div style="font-size: 2.5em;">Thiago</div>
+            <div style="font-size: 1.3em;">sdfj oghdgb xfgybix fyuig xfgtxfyui gfhi djhkgfjuk dgtdfuiog hfcvnbgfu odjguos fui og uiofdgu iofdhig uifb</div>
+            <div style="font-size: 2.2em;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ratione architecto inventore est blanditiis impedit minus reprehenderit rem? Cum fugit alias itaque similique? Harum a ad, eveniet dolores repellat magni?</div>
+            <div style="font-size: 1.5em;">fffffffffff fffff sssss sssssssssss srr rrrrrrrrr rrrrrr rrrrrrtttt</div>
+            <div style="font-size: 1.2em;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti labore voluptate error atque natus eligendi enim minima eos, earum voluptatibus facere adipisci, ut similique assumenda, animi ipsam ea magni maiores?</div>   
+        </section>
+
+
+    </body>
+</html>

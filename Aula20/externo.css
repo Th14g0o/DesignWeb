@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #EC6842;
+    padding: 2em;
+    color: white;
+}
+header a{
+    color: white;
+}
+header li{
+    display: inline-block;
+    list-style-type: none;            
+}
+main{
+    margin: 0 auto;
+    /* max-width: 70em;  */
+}
+main section{
+    margin:  3em 0;
+    display: flex;
+    justify-content: space-between; /* faz com que elementos sejam distribuidos igualmente de forma que o primeiro e o ultimo elemento estejam na ponta da tela*/
+    /* flex-wrap: wrap;  faz com que os elementos se adaptem a largura */
+    /* flex-direction: row-reverse; inverte o modo que o elemento é "lido", tipo de leitura japonesa, inverte a posição dos elementos */
+    /* flex: faz com que  os elementos dentro da tag(nese caso, serão as tags dentro da section. se for usado na div, o flex vai para os p) fiquem alinhados lado a lado  */
+}
+
+footer{
+    padding: 2em;
+    background-color: #B1D5D5;
+}
+footer li{
+    display: inline-block;
+}
+main section div{
+    border: 1px solid black;
+    padding: 1em;
+    box-shadow: 0 0 1em #d2d2d2;
+    
+    /* wdith aqui trabalha com o max-width e organiza os elementos em colunas verticais e horizontaisl  */
+}
+main section div:nth-child(2){
+    margin: 0 1em;
+}

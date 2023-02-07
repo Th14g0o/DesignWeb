@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Aula 8:Picture</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Aula8Formata.css" />
+
+    </head>
+    <body>
+        <picture>
+            <source srcset="destaque.jpg" media="(min-width:1200px)" /> <!--Se a janela for alterada para 1200px roda essa imagem-->
+            <source srcset="destaque_medio.jpg" media="(min-width:850px)" />
+            <img src="destaque_menor.jpg" alt="Imagem do projeto" />
+        </picture>
+
+    </body>
+</html>

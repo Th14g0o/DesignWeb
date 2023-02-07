@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <title>Ancoras</title>
+        <!-- A marcação de ancora permite fazer uma ligação para uma outra pagina, externa ou interna; Deve ficar o mais proximo possivel do que pode ser clicado -->
+        <meta charset="utf-8" />
+
+        <style>
+
+            /* margim espaçamento de fora, padding espaçamento de dentro */
+            body {
+
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                background-color: cornflowerblue;
+
+            }
+
+            a {
+                color: rgb(243, 227, 0);
+                border-bottom: 1px solid whitesmoke;
+                padding: 10px;
+            }
+
+            a:hover {
+                /* Subclasse hober(sobre), efeito da interação do mouse, se o mouse tiver numa parte selecionada pela ancora ele mudo alguma coisa */
+
+                color: rgb(255, 255, 255);
+
+            }
+
+            li {
+                
+                list-style-type: none;
+                display: inline;
+                padding: 10px;
+
+            }
+
+            li a{
+                text-decoration: none;
+                color: rgb(114, 17, 0);
+                border-bottom: 1px solid rgb(60, 255, 0);
+                padding: 10px;
+                
+            }
+
+
+            ol{
+                padding: 0;
+            }
+        
+        </style>
+        
+    </head>
+
+    <body>
+
+        <h1>SÃO JOÃO</h1>
+        <ol>
+            <li><a href="Exemplodepaginainterna.html">Quando</a></li>
+            <li><a href="onde.html">Onde</a></li>
+            <li><a href="comida.html">Comida</a></li>
+            <li><a href="atracoes.html">Atrações</a></li>
+            <li><a href="pagamento.html">Pagamento</a></li>
+        </ol>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum magnam temporibus molestias necessitatibus dolores? Quod commodi ipsum quia, iste repellat labore quasi ipsam, sed eveniet neque dolorem animi consectetur sequi?</p>
+        <p><a href="Exemplodepaginainterna.html">Pagina interna.</a></p>
+        <p>Acesse o <a href="http://portal.ifrn.edu.br">site do IFRN.</a></p> <!-- a significca ancora. (href=referencia de hiperlink); protocolo http(recebe dados do servidr) e ftp(passar dados pra servidor); -->
+        <!--  -->
+
+    </body>
+
+</html>

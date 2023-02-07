@@ -1,0 +1,69 @@
+*{
+    font-family: "Comic Sans MS";
+    margin: 0;
+    padding:0;
+
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+header{
+    background-color: rgb(34, 216, 79);
+    padding: 2em;
+    margin: 10px;
+}
+
+li{
+    display: inline-block;
+
+}
+a{
+    color: white; 
+    text-decoration: none;
+}
+li a{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+
+}
+li a:hover{
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+footer{
+    background-color: rgb(34, 216, 79);
+    padding: 2em;
+    margin: 10px;
+}
+main{
+    margin: 15px auto;
+}
+main section{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80em;
+    background-color: rgb(64, 201, 255);
+    
+}
+main section h2{
+    /* background-color: aqua; */
+    display: block;
+    margin: 0.5em;
+    width: 100%;
+
+    
+}
+section div{
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    width: 16em;
+    height: 27em;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 0 0.5em #d2d2d2;
+    box-sizing: border-box;
+}

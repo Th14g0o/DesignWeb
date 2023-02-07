@@ -1,0 +1,22 @@
+body{
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 124, 161);
+    background-color: rgb(62, 76, 85);
+}
+
+h2{
+    color: rgb(47, 51, 53);
+}
+
+li {
+    margin-bottom: 0.3em;
+    list-style-image: url("poke2.png");
+}
+
+img {
+    border: 5px solid rgb(0,0,0);
+}

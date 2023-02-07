@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Tabelas</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="FormaTabela.css" />
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Alunos</th><th>N1</th><th>N2</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!-- <tr>
+                    <td>Thiago</td><td>100</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td><td>100</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Renan</td><td>100</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Rebekah</td><td>100</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Daniella</td><td>100</td><td>100</td>
+                </tr> -->
+                <tr>
+                    <td>Thiago</td><td>100</td><td rowspan="2">20</td>
+                </tr>
+                <!-- rowpan: serve para mesclar com a fileira de baixo, empurra para frente se tiver outro elemento -->
+                <tr>
+                    <td>Pedro</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Renan</td><td>100</td><td>100</td>
+                </tr>
+                <tr>
+                    <td>Rebekah</td><td colspan="2" >100</td>
+                </tr>
+                <!-- colspan(colunas unidas): faz uma mesclagem(se juntar) de uma cedula(quadradinho)  com a proxima cedula-->
+                <tr>
+                    <td>Daniella</td><td>100</td><td>100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td rowspan="2">5 alunos</td><td colspan="2">100</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- table o comando para seria o inicio da tabela, tr seria cada fileira da tabela, th seria o cabeçalho; td seria algum elemento relacionado ao cabeçalho -->
+        <!-- existem tres classificações opçionais, serve para tbody(para os elementos), tfoot(para o resumo da tabela), thead(para o cabeçalho). Agrupa as linhas de uma mesma classificação  -->
+        <pre>
+ssfdgsdhgiosdhguiosfiouof
+                                                                                                                                                                              Aqui
+                                          Aqui
+
+
+            yabadabadohh
+        </pre>
+        <!-- o pre formata o texto inserido dentro de modo que seja escrito no navegador de forma igual, muda a fonte para monospace -->
+    </body>
+</html>

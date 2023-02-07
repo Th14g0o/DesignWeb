@@ -1,0 +1,36 @@
+h1 a{
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    transition-property: padding-right;
+}
+h1 a:hover{
+    background-image: url("home.png");
+    padding-right: 1em;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+nav li a{
+    padding: 1em;
+    margin: 1em;
+    background-color: #00008b;
+    display: block;
+    border-radius: 0.5em;
+    width: 7em;
+    text-align: center;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+    transition-property: background-position;
+}
+nav li{
+    position: relative;
+}
+nav li ol{
+    position: absolute;
+    visibility: hidden;
+}
+nav a:hover{
+    background-image: linear-gradient(45deg, #00008b, #b8b3e8, #00008b);
+    background-position: 20em 0;
+    background-repeat: no-repeat;
+    background-size: 2em;
+}

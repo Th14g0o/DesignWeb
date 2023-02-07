@@ -1,0 +1,24 @@
+table {
+
+    border-collapse: collapse;
+    /*border-collapse: modo de organização da tabela; collapse unifica as bordas */
+    background-color: rgb(128, 128, 172);
+    border: 3px solid black;
+    color: white;
+    /* Cria borda na area da tabla */
+}
+
+tbody tr:nth-child(odd) {
+
+    /* nth: e-nesimo termo, child: tags que estão inseridas em outras, odd: seria todos os filhos impares  */
+    background-color: gray;
+
+}
+
+table td,  table th{
+    /* Virgula serve para colocar outra tag, que não necessariamente tera relação com a primeira, que se deseje especifcar algumam formatação */
+
+    padding: 1em;
+    border: 3px solid black;
+    /* Cria borda nos elementos da tabela */
+}

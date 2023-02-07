@@ -1,0 +1,24 @@
+body{
+    /**background-color: rgb(255, 255, 255);**/
+    background-image: url("gemini-skincare.png"), url("mv_bg.png"); /**A imagem meramente decorativa, pode ser usada como plano de fundo**/
+    background-repeat: no-repeat, repeat; /*determina quantas vezes a imagem se duplica no navegador*/
+    /*background-position: center;*/ /*determina a localização da imagem no navegador*/
+    /*background-repeat: repeat-x;*/
+    /*background-position: top;*/
+    /*background-size: 100%;*/ /*aumenta o tamnaho da imagem de fundo*/
+    /*background-size: cover;*/  /*cover adapta a altura do background para o navegador*/ 
+    /*background-size: contain;*/ /*contain adapta a largura do background para o navegador*/
+    background-position: bottom left, bottom right; 
+    background-color: rgba(0, 0, 0, 0.945);
+    background-attachment: fixed, scroll; /*adapta ao sistema de rolagem do navegador fixed, torna a posição da imagem imutavel*/
+}
+h1 {
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    color: rgba(0, 123, 180, 0.945);
+}
+
+p{
+    text-align: center;
+    color: rgba(114, 41, 41, 0.664);
+}

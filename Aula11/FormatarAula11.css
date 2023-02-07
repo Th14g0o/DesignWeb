@@ -1,0 +1,19 @@
+ul{
+
+    /*list-style-type: none;*/
+    background-color: rgb(14, 57, 92);
+    width: 10%; /*diminui a area de estaque do background*/
+    margin-left: auto;
+    margin-right: auto; /*o right e left junto funciona como o margin: 0 auto;*/
+    /*margin: 0 auto;*/ /*atomatico, move a lista pela tela, nesse caso centraliza automaticamente, pode ser usado o 0.0em*/
+
+}
+
+li {
+
+    list-style-type: none;
+    margin-bottom: 0.3em;
+    background-color: rgb(104, 142, 173);
+    display: inline; /*display muda a forma da lista, inline e a forma em si*/
+
+}

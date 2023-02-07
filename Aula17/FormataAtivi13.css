@@ -1,0 +1,180 @@
+
+/*hr {
+    border: 2px solid #F9F1DC
+}*/
+/*serve para aulter a espessura e cor do hr*/
+
+body {
+    text-align: center;
+    /*background-color: #FAF8F5;*/
+    background-image: url("image 1 (1).jpg");
+    background-attachment: fixed, scroll;
+    background-size: contain;
+    background-size: cover;
+}
+
+picture img {
+
+    border-bottom: 2px solid #F5BD26;
+    border-top: 2px solid #F5BD26;
+    margin: 3px;
+
+}
+
+ul {
+
+    width: 58%;
+    margin: 0 auto;
+
+}
+
+ol {
+
+    padding: 0;
+    margin-bottom: 2em;
+
+}
+
+li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+address {
+
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+h2{
+
+    font-size: 300%;
+    font-family: garamond;
+    font-style: italic;
+    border-bottom: 2px solid #F9F1DC;
+    width: 15%;
+    margin: 0 auto; 
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+h3{
+
+    font-size: 250%;
+    font-family: garamond;
+    font-style: italic;
+     /* --------------- */
+    /* border-bottom: 2px solid #F9F1DC; */
+    /* width: 20%;
+    /* margin: 0 auto; */
+    /*CASO PRECISI LIMITAR A BASE DO BORDER */
+    /* --------------- */
+
+}
+
+p {
+
+    margin: 0 auto;
+    width: 16%;
+    padding: 2em;
+
+}
+
+ol a:hover {
+    /* Subclasse hover(sobre), efeito da interação do mouse, se o mouse tiver numa parte selecionada, nesse caso a,  ele mudo alguma coisa o*/
+
+    color: rgb(33, 173, 138);
+    border-bottom: 1px solid rgb(33, 173, 138);
+    border-top: 1px solid rgb(33, 173, 138);
+    border-right: 1px solid rgb(33, 173, 138);
+    border-left: 1px solid rgb(33, 173, 138);
+
+}
+
+li a{
+
+    text-decoration: none;
+    color: rgb(12, 126, 40);
+    border-bottom: 1px solid rgb(12, 126, 40);
+    border-top: 1px solid rgba(33, 173, 138, 0);
+    border-right: 1px solid rgba(33, 173, 138, 0);
+    border-left: 1px solid rgba(33, 173, 138, 0);
+    padding: 10px;
+
+}
+
+form{
+
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+
+}
+
+input[id="barradbusca"]{
+
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    background-color: rgba(33, 173, 138, 0);
+    border: 2px solid rgba(0, 0, 0, 0.733);
+
+}
+
+.inputnormal{
+    display: inline-block;
+    width: 8em;
+}
+
+label, input, option, select{
+    font-size: 175%;
+    font-family: garamond;
+    font-style: italic;
+}
+
+fieldset{
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+fieldset select, fieldset input {
+
+    
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    background-color: rgba(33, 173, 138, 0);
+    border: 2px solid rgba(0, 0, 0, 0.733);
+
+
+}
+
+input[type="submit"]{
+    background-color: rgba(33, 173, 138, 0);
+    border: 2px solid rgba(0, 0, 0, 0.733);
+}
+
+select{
+
+    background-color: rgba(33, 173, 138, 0);
+    border: 2px solid rgba(0, 0, 0, 0.733);
+
+}
+
+div textarea{
+
+    background-color: rgba(33, 173, 138, 0);
+    border: 2px solid rgba(0, 0, 0, 0.733);
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 100px;
+
+
+}
+

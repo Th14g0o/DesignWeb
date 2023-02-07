@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    max-height: 1000em;
+}
+
+header nav{
+    align-self: center;
+}
+header ol li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px 4px;
+    border: 1px solid #202020;
+    padding: 5px 25px;
+    
+}
+header a{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+}
+header form{
+    display: flex;
+    margin: 0 30px;
+    color: black;
+    align-self: center;
+}
+header form div input{
+    background-color: black;
+    border: 1px solid #202020;
+    height: 20px;
+    width: 250px;
+    color: white;
+}
+main section{
+    padding-top: 20px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100em;
+    min-width: 24em;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+figure{
+    margin: 0 auto;
+}
+main.personage section div.primario_div{
+    height: 35em;
+    width: 25em;
+    background-color: rgb(253, 253, 253);
+    border: 3px solid #DCDCDC;
+    border-radius: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em auto;
+    padding: 32px;
+}
+main.personage section div.primario_div div h2{
+    color: rgb(0, 0, 0);
+}
+main.personage section div.primario_div p{
+    width: 90%;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 30px;;
+    align-self: center;
+    box-sizing: border-box;
+}
+main section div{
+    align-content: center;
+    text-align: center;
+}
+body.inicio main section div{
+    background-color: white;
+    border: 3px solid #DCDCDC;
+    border-radius: 10px;
+    width: 31em;
+    height: 22em;
+    
+    padding-top: 32px;
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+main section div h2{
+    font-size: 1.4em;
+}
+section ol{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100em;
+    padding: 30px 20px;
+    list-style: none;
+}
+section ol li{
+    background-color: white;
+    width: 10.5em;
+    height: 10.2em;
+    display: flex;
+    border: 3px solid #DCDCDC;
+    border-radius: 100%;
+    
+}
+section ol li a{
+    align-self: center;
+    margin: 0 auto;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer nav{
+    align-self: center;
+}
+footer nav li{
+    display: inline-block;
+    margin: 2px 4.5px;
+}
+footer nav ul li{
+    margin: 0 8px; 
+}
+footer nav ol li{
+    padding: 5px 25px;
+    border: 1px solid #202020;
+    
+}
+footer nav ol li a{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    
+}

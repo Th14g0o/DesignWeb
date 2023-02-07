@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="ss.css" />
+        <title>Position</title>
+        <link rel="icon" href="icon.png" />
+
+        <script>
+            function fechar(){
+                document.getElementById('modal').style.visibility = 'hidden';
+                document.getElementById('esmaecer').style.visibility = 'hidden';
+                // procura o documento, pelo id "modal", altera a visibilidade para oculto
+            }
+            function abrir(){
+                document.getElementById('modal').style.visibility = 'visible';
+                document.getElementById('esmaecer').style.visibility = 'visible';
+                //altera para visivel
+            }
+            
+            function abrir2(){
+                document.getElementById('submenu1').style.visibility = 'visible';
+                document.getElementById('esmaecer').style.visibility = 'visible';
+                //altera para visivel
+            }
+            function fechar2(){
+                document.getElementById('submenu1').style.visibility = 'hidden';
+                document.getElementById('esmaecer').style.visibility = 'hidden';
+                //altera para visivel
+            }
+
+            function abrir3(){
+                document.getElementById('submenu2').style.visibility = 'visible';
+                document.getElementById('esmaecer').style.visibility = 'visible';
+                //altera para visivel
+            }
+            function fechar3(){
+                document.getElementById('submenu2').style.visibility = 'hidden';
+                document.getElementById('esmaecer').style.visibility = 'hidden';
+                //altera para visivel
+            }
+
+        </script>
+    </head>
+    <body>
+        <!-- frontend, lado do cliente, -->
+        <!-- modal, termo usada para abrir uma janelinha no meio da pagina -->
+        
+        <div id="modal">
+            <a class="redx" href="javascript:fechar()">X</a>
+            <!-- caha a função "fechar" criada no javascript -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum soluta, quos quasi dolore error, exercitationem tempore nam sed at, aut eligendi ipsa ea! Doloremque, tempore! Asperiores beatae sit earum ducimus?</p>
+        </div>
+        
+
+        <header>
+           
+            <h1><a href="javascript:abrir()">Site</a></h1>
+            <nav>
+                <ul>
+                    <li ><a href="javascript:abrir2()">Item</a>
+                        <ul id="submenu1">
+                            <a class="redx" href="javascript:fechar2()">X</a>
+                            <li><a>Item do item</a></li>
+                            <li><a>Item do item</a></li>
+                            <li><a>Item do item</a></li>  
+                        </ul>
+                    </li>
+                    <li ><a href="javascript:abrir3()">Item</a>
+                        <ul id="submenu2">
+                            <a class="redx" href="javascript:fechar3()">X</a>
+                            <li><a>Item do item</a></li>
+                            <li><a>Item do item</a></li>
+                            <li><a>Item do item</a></li>  
+                        </ul>
+                    </li>
+
+                    <li>Item</li>
+
+                    <li>Item</li>
+
+                </ul>
+            </nav> 
+            <div id='esmaecer'></div>
+        </header>
+        <main>
+            <section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error velit illo vero aut. Illum qui ratione asperiores, quasi, iusto eveniet, ipsa cumque molestiae consequatur quia dolores? Eligendi vitae quaerat corrupti.</p>
+            </section>
+        </main>
+        <footer>
+            <p>dhksdajkcdsja</p>
+        </footer>
+    </body>
+</html>

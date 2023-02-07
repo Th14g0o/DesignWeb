@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    color: blue;
+}
+body{
+    background-color: black;
+}
+main, footer{
+    margin: 3em;
+    background-color: white;
+    padding: 3em;
+}
+
+
+
+a.redx{
+    text-align: center;
+    color: red;
+    font-size: 200%;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(0,0,0,0);
+}
+a.redx:hover{
+    border: 2px solid red;
+}
+div#modal{
+    padding: 2em;
+    background-color: aqua;
+    border: 1px solid green;
+    box-shadow: 0 0 0.2em white;
+    width: 20em;
+    height: 20em;
+    position: absolute; /* objeto em cima do outro = postion absolute*/
+    /*top: 50%; empurram a posição do objeto para baixo */
+    /* left: 50%;empurra para direita a posição do objeto */
+    top: 10.3%;
+    left: 2%;
+    visibility: hidden; /* deixa por padrão escondido */
+    z-index: 3;
+}
+header{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: 3em;
+    z-index: 1;/* quanto maior o numero mais em "cima" ele fica */
+}
+
+
+ul#submenu1, ul#submenu2{
+    background-color: grey;
+    padding: 2em;
+    width: 15em;
+    height: 15em;
+    visibility: hidden;
+    position: absolute;
+}
+ul#submenu1 li, ul#submenu2 li{
+    margin-left: 4em;
+}
+ul#submenu1{
+    top: 49%;
+    left: 5%;
+    z-index: 4;
+}
+ul#submenu2{
+    top: 59%;
+    left: 5%;
+    z-index: 3;
+}
+
+
+
+div#esmaecer{
+    background-color: rgba( 255, 255, 255, 0.7);
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: hidden;
+    z-index: 2;
+}
+div#esmaecer2{
+    background-color: rgba( 255, 255, 255, 0.7);
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 2;
+}

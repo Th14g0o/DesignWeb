@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+body{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+div{
+    display: flex;
+    color: red;
+    width: 5em;
+    height: 5em;
+    background-color: aqua;
+    padding: 2em;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 0 0.3em black;
+    transition-duration: 900ms;
+    /* duração da transição */
+    /* transitio vai fucionar so com hover e existem varios tipos*/
+    transition-property: transform, border, box-shadow, background-color, color;
+    /* transition-property serve para definir o que vai mudar na transição, com os atibutos que mudam sendo escolhidos */
+    transition-timing-function: ease;
+    /* tipo da função que se deseja trabalhar com a  animação, velocidade mas com o mesmo tempo*/
+    transition-delay: 900ms;
+    /* tempo que demora para começar a transição */
+}
+div:hover{
+    /* transform: scale(1.2,1.2); */
+    /* tranform pode deforma em y e/ou x. scale seria tanto em x quanto em y*/
+    transform: rotate(360deg) scale(1.2,1.2);
+    /* tranform rotate gira, o deg são os graus */
+    background-color: brown;
+    border: 3px solid blue;
+    box-shadow: 0 0 2em #bebebe;
+    color: white;
+}

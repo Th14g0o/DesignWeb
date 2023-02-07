@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", monospace, sans-serif;
+}
+header, footer{
+    background-color: rgb(162, 210, 233);
+    padding: 2em;
+}
+header{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer{
+    margin-top: 1em;
+}
+
+
+header div{
+    width: 50%;
+}
+nav.principal ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+nav.principal a{
+    color: teal;
+    text-decoration: none;
+}
+
+nav.principal > ol li{
+   /* pegas os li que estão denttro dos ol que estão diretamente no nav */
+   padding-right: 1.5em;
+   
+}
+nav.principal ol ol{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 1em;
+    display: block;
+    visibility: hidden;
+}
+
+nav.principal > ol li:hover ol{
+    visibility: visible;
+ }
+nav#menu > a{
+    display: block;
+    color: red;
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    width: 1em;
+    padding: 0.3em;
+    margin: 0.4em auto;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+nav#menu > a:hover{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+ nav#menu{
+     padding: 0 3em;
+     position: fixed;
+     visibility: hidden;
+     top: 0;
+     right: 0;
+     background-color: rgb(41, 41, 41);
+     height: 100%;
+ }
+ nav#menu ol{
+    list-style-type: none;
+    margin: 1em;
+ }
+ nav#menu ol li{
+    margin: 2em 0;
+    font-size: 150%;
+    text-align: center;
+ }
+ nav#menu ol li a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0);
+ }
+ nav#menu ol li a:hover{
+    border: 2px solid white;
+ }

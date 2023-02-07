@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>displayflex-aligncontent</title>
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                font-family: "Comic Sans MS", sans-serif;
+            }
+            h1{
+                color: rgb(88, 243, 88);
+            }
+            h2{
+                color: rgb(88, 243, 88);
+                margin-bottom: 15px;
+            }
+            p{
+                color: rgb(88, 243, 88);
+                text-align: center;
+                margin-top: 4px;
+            }
+            body{
+                background-color: rgb(36, 36, 36);
+            }
+            section{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 1em;
+                background-color: rgb(29, 73, 40);
+                margin-bottom: 1em;
+                height: 45em;
+            }
+            section div{
+                width: 2em;
+                height: 2em;
+                margin: 1em;
+                padding: 1em;
+                border: 2px solid rgb(88, 243, 88);
+                background-color: rgb(36, 36, 36);
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>display: flex</h1>
+
+        <h2>align-content: stretch(padrão)</h2>
+        <section style="align-content: stretch;">
+            <!-- align content é a organização vertical do elementos -->
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+
+        <h2>align-content: center</h2>
+        <section style="align-content: center;">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+
+        <h2>align-content: space-between</h2>
+        <section style="align-content: space-between;">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+
+        <h2>align-content: space-around</h2>
+        <section style="align-content: space-around;">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+
+        <h2>align-content: flex-end</h2>
+        <section style="align-content: flex-end;">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+        <h2>align-content: flex-start</h2>
+        <section style="align-content: flex-start;">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>10</p></div>
+            <div><p>11</p></div>
+            <div><p>12</p></div>
+            <div><p>13</p></div>
+            <div><p>14</p></div>
+            <div><p>15</p></div>
+            <div><p>16</p></div>
+            <div><p>17</p></div>
+            <div><p>18</p></div>
+            <div><p>19</p></div>
+            <div><p>20</p></div>
+            <div><p>21</p></div>
+            <div><p>22</p></div>
+            <div><p>23</p></div>
+            <div><p>24</p></div>
+            <div><p>25</p></div>
+            <div><p>26</p></div>
+            <div><p>27</p></div>
+            <div><p>28</p></div>
+            <div><p>29</p></div>
+            <div><p>30</p></div>
+        </section>
+
+    </body>
+</html>

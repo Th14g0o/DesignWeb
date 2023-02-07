@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Formulario aula 2</title>
+        <meta charset="utf-8" />
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+
+        <form action="DadosRecebidos.html">
+            <fieldset>
+                <!-- fieldset: Cria o campo que delimita tudo dentro de sua tag, agrupa todos o campos -->
+                <legend>Autentificação</legend>
+                <!-- lengend: resumo do area, legenda, titulo  -->
+                <div>
+                    <label for="login">Login: </label>
+                    <input type="text" id="login" />
+                </div>
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" id="senha" />
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div>
+                    <label for="nome">Seu nome completo: </label>
+                    <input type="text" id="nome" />
+                </div>
+                <div>
+                    <label for="telefone">Numero de telefone: </label>
+                    <input type="tel" id="telefone" />
+                 </div>
+                 <div>
+                     <label for="CPF">Seu CPF: </label>
+                     <input type="text" id="CPF" />
+                 </div>
+                 <div>
+                    <label for="nascimento">Sua data de nascimento: </label>
+                    <input type="date" id="nascimento" />
+                </div>
+                <div>
+                    <label for="uf">UF: </label>
+                    <select id="uf">
+                        <!-- select = combo box, serve para colacar itens ja definidos que deverão ser escolhidos pelo usuaro -->
+                        <option value="rn">RN</option>
+                        <option value="pe">PE</option>
+                        <option value="al">AL</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Cidade">Cidade: </label>
+                    <input type="text" list="Cidades" id="Cidade" />
+                    <datalist id="Cidades">
+                        <!--datlist serve como input mas cria uma setinha que mostra opções ja porntas -->
+                        <option value="Natal">Natal</option>
+                        <option value="Mossoro">Mossoro</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                    </datalist>
+                </div>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Dados profissionais</legend>
+                <div>
+                    <span>Formação:</span>
+                    <!-- span não tem valor semanti, mostra um texto, pode ser trocado por div -->
+                    <label>
+                        <input type="radio" name="formacao" value="medio" /> Médio completo
+                    </label>
+                    <!-- Radio faz o input ficar marcavel, com uma bolinha -->
+                    <label>
+                        <input type="radio" name="formacao" value="superior" /> Superior
+                    </label>
+                    <label>
+                        <input type="radio" name="formacao" value="mestrado" /> Mestrado
+                    </label>
+                    <!-- coloca name em todas as fazem ter as mesmas função -->
+                </div>
+                <div>
+                    <span>Estado civil:</span>
+                    <label><input type="radio" name="ec" value="solteira"> Solteira </label>
+                    <label><input type="radio" name="ec" value="casada" /> Casada</label>
+                </div>
+
+                <div>
+                    <span>Areaa de interesse: </span>
+                    <label><input type="checkbox" name="areas" value="prog" />Programação</label>
+                    <label><input type="checkbox" name="areas" value="design" /> Design</label>
+                </div>
+                <div>
+                    <label for="curriculo">Curriculo: </label>
+                    <input type="file" id="curriculo" />
+                    <!-- tipo file cria area para enviar/exportar arquivos -->
+                </div>
+                <div>
+                    <label for="mais">Mais informações: </label>
+                    <textarea id="mais"></textarea>
+                    <!-- cria uma caixa que da possibilidade de usar enter -->
+                </div>
+            </fieldset>
+            <input type="submit" value="enviar" />
+        </form>
+
+    </body>
+
+</html>

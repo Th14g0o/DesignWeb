@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    color: white;
+    background-color: rgb(41, 151, 202);
+    padding: 2em;
+}
+footer{
+    background-color: rgb(41, 151, 202);
+    padding: 2em;
+}
+a{
+    color: white;
+    border: 1px solid rgb(255,255,255,0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255,255,255);
+}
+a:hover{
+    text-decoration: none;
+    border: 1px solid rgb(255,255,255);
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+main{
+
+    margin: 0 auto;
+    max-width: 70em;
+}
+section{
+    
+    color: rgb(255, 255, 255);
+    margin: 2em;
+    background-color: rgb(63, 63, 63);
+    padding: 1em;
+}
+
+section div{
+    display: inline-block;
+    width: 252px;
+    height: 370px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    vertical-align: top;
+    /* vertical-align serve para alinha,organizar a "caixa na tela(caso esteja toda bagunçada)*/
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+section h2{
+    background-color: rgb(41, 151, 202);
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+section h3{
+    padding: 3px 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+section p{
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+

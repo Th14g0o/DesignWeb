@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+
+    <head>
+        <title>Reservas</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="FormataAtivi13.css" />
+        
+        <style>
+
+            h3:hover{
+
+                color: rgb(5, 221, 167);
+                background-color: rgb(12, 126, 40);
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+            <h1><a href="index.html" ><img src="imagens/logo.png" alt="logo raw(comida natural)" /></a></h1>
+
+            <ol>
+                <li><a href="Cardapio.html">Cardapio</a></li>
+                <li><a href="Promo.html">Promoções</a></li>
+                <li><a href="Favoritos.html">Favoritos</a></li>
+                <li><a href="Perfil.html">Contato</a></li>
+                <li><a href="Delivery.html">Reservas</a></li>
+            </ol>
+            
+            <form>
+      
+                <div>
+                    <label for="barradbusca"></label><input type="search" id="barradbusca" placeholder="BUSCA" />
+                    <input type="image" src="imagens/LupaDePedreiro.png" value="submit" />               
+                </div>
+            </form>
+            <h2>Reservas</h2>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="nome" class="inputnormal">Nome: </label> <input type="text" id="nome" />
+                    </div>
+                    <div>
+                        <label for="emaio"  class="inputnormal">Email: </label> <input type="email" id="emaio" />
+                    </div>
+                    <div>
+                        <label for="data1"  class="inputnormal">Data: </label> <input type="date" id="data1" />
+                    </div>
+                    <div>
+                        <label for="npessoas" class="inputnormal" >Numero de pessoas:</label> <input type="number" id="npessoas" />
+                    </div>
+                    <div>
+                        <label for="mais">Mais: </label> 
+                        <br />
+                        <textarea  id="mais"></textarea>
+                    </div>
+                </fieldset>
+                <input class="enviar" type="submit" value="ok" />
+
+            </form>
+
+            <address>
+                Rua Olinto Meira, 379, Cidade Alta
+            </address>
+
+    </body>
+
+</html>

@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-color: #ECECEC;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-image: linear-gradient(to right,#1C2159, #44C6AC);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    min-height: 8em;
+    max-height: 9.2em;
+    box-sizing: border-box;
+} 
+h1{
+    margin: 0.5em;
+    margin-left: 1.5em;
+    font-size: 350%;
+}
+h1 a{
+    color: white; 
+}
+ol{
+    margin: 1em;
+}
+li{
+    margin-right: 2em;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0);
+    
+}
+a{
+    text-decoration: none;
+    color: #1b2b69;
+}
+footer{
+    background-color: #D8D8D8;
+}
+footer p{
+    padding-left: 4em;
+    color: #1b2b69;
+}
+footer p:nth-child(1){
+    padding-top: 2em;
+}
+footer p:nth-child(3){
+    padding-bottom: 3em;
+}
+
+main{
+    margin: 0.9em auto;
+    max-width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 36.3em;
+    align-items: center;
+}
+section > div{ 
+    background-color: white;
+    width: 250px;
+    max-width: 500px;
+    min-height: 165px;
+    margin: 20px;
+    font-size: 70%;
+    box-sizing: border-box;
+}
+section div h2{
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 135%;
+}
+section div p{
+    padding-left: 10px;
+    padding-bottom: 9.5px;
+} 
+figure{
+    text-align: center;
+}
+section div div{
+    display: flex;
+    background-color: white;
+    max-width: 238px;
+    align-items: center;
+    margin: 0;
+    margin-left: 6px;
+    font-size: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+section div div p{
+    padding: 6px 0px;
+    color: rgb(184, 184, 184);
+}
+section p:nth-child(7){
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+section a{
+    color: black;
+    background-color: #C6C6C6;
+    padding: 13px 40px;
+    margin-right: 1em;
+}
+aside{
+    
+    background-color: white;
+    max-width: 60em;
+    height: 575px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+aside div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 19.6em;
+    margin: 0 auto;
+    font-size: 70%;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #F9F9F9;
+
+}
+aside div p:nth-child(1){
+    color: white;
+    background-color: #028BD7;
+    padding: 3px;
+}
+aside div p:nth-child(2){
+    padding: 3px;
+}
+aside div p:nth-child(3){
+    padding: 3px;
+    background-color: #028BD7;
+    color: white;
+}
+input[type="search"]{
+    padding: 9px;
+    margin: 10px 0; 
+    margin-top: 22px;
+    margin-right: 75px;
+    margin-left: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+
+}
+aside h2{
+    background-color: #F9F9F9;
+    color: #1b2b69;
+    margin-bottom: 9px;
+    padding-left: 45px;
+    font-size: 21.5px;
+}
+table{
+    margin: 9px auto;
+    border-collapse:collapse;
+    margin-bottom: 37px;
+    text-align: center;
+    max-width: 14em;
+    color: rgb(63, 63, 63);
+}
+table th{
+    font-size: 60%;
+    padding: 3px;
+    margin: auto;
+    border-bottom: 1px solid rgb(63, 63, 63);;
+}
+table td{
+    width: 30px;
+    font-size: 75.5%;
+    height: 25px;
+    text-align: center;
+
+}
+.devento{
+    background-color: #0A86CF;
+    color: white;
+    display: block;
+}
+td.devento{
+    margin-bottom: 3px;
+}
+
+aside table tr td img{
+    margin-left: auto ;
+}
+aside p:nth-child(5){
+    margin-left: 10%;
+    font-size: 90%;
+}
+aside p:nth-child(7){
+    margin-bottom: 15px;
+    margin-left: 10%;
+    font-size: 90%;
+}
+aside p:nth-child(6){
+    margin-left: 10%;
+    font-size: 90%;
+}
+aside form span{
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 12px;
+    font-size: 80%;
+}
+
+aside label{
+    display: inline-block;
+    margin-left: 4%;
+    vertical-align: top;
+} 
+
+div.enquete_label{
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    font-size: 75%;
+    border-style: none;
+}
+input[type="submit"]{
+    background-color: #EBEBEB;
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+    padding: 6.5px 30px;
+    font-size: 55%;
+}
+
+
+

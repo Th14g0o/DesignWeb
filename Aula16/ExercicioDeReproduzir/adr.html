@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Atividade De Reproduzir Formulario 2</title>
+        <meta charset="utf-8" />
+        <style>
+            body{
+                color: white;
+                background-image: linear-gradient(to bottom right, #082E46, #66BE78 );               
+            }
+
+            span{
+                margin-left: 6px;
+            }
+
+            legend{
+                font-size: 22px;
+                background-color: rgba(255, 255, 255, 0.253);
+                color: rgba(255, 255, 255, 0.445);
+                text-align: center;
+            }
+
+            fieldset{
+                margin: 10px;
+                margin-left: 25%;
+                margin-right: 25%;
+                border: 2px solid rgba(255, 255, 255, 0.253);
+                border-radius: 10px;
+            }
+            fieldset label{
+                display: inline-block;
+                width: 25%;
+                margin: 8px;
+                padding:0%;
+            }
+
+            div input{
+                border: 1px solid rgba(255, 255, 255, 0.253);
+                background-color: rgba(255, 255, 255, 0);
+                color: white;
+
+            }
+            
+            fieldset[id="autenti"] div input, fieldset[id="dadosp"] div input{
+                width: 40%;
+                height: 35px;
+                margin: 10px;
+            }
+            fieldset[id="dadosp"] div select{
+                width: 40%;
+                height: 35px;
+                margin: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.253);
+                background-color: rgba(0, 0, 0, 0.027);
+                color: rgb(255, 255, 255);
+
+
+            }
+            fieldset[id="dadosp"] div select option{
+                background-color: black;
+            }
+
+            label[id="lporemail"] {
+                float: right;
+                margin-right: 25%;
+            }
+
+            input[type="submit"]{
+                border-radius: 10px;
+                border-style: none;
+                margin-left: 66%;
+                margin-top: 35px;
+                padding-left: 53px;
+                padding-right: 53px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+
+
+            }
+            textarea[id="descricurta"]{
+                width: 200%;
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 0.253);
+                background-color: rgba(255, 255, 255, 0);
+                padding: 50%;
+            }
+            input[type="file"]{
+                width: 200%;
+                padding: 10px;
+            }
+            
+                
+        </style>
+    </head>
+    <body>
+        <form action="DadosRecebidos.html">
+            <fieldset id="autenti">
+                <legend>Autenticação</legend>
+                <div>
+                    <label for="login">Login: </label> <input type="text" id="login" />
+                </div>
+                <div>
+                    <label for="senha">Senha: </label> <input type="password" id="senha" />
+                </div>
+                <div>
+                    <label for="confsenha">Confirmar senha:</label> <input type="password" id="confsenha" />
+                </div>
+            </fieldset>
+
+            <fieldset id="dadosp">
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="nomec">Nome: </label> <input type="text" id="nomec" />
+                </div>
+                <div>
+                    <label for="email">Email: </label> <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="cpf">CPF: </label> <input type="text" id="cpf" />
+                </div>
+                <div>
+                    <label for="telefone">Telefone: </label> <input type="tel" id="telefone" />
+                </div>
+                <div>
+                    <label for="nascimentodma">Data de nascimento:</label> <input type="date" id="nascimentodma" />
+                </div>
+                <div>
+                    <label for="estado">UF: </label> 
+                    <select id="estado">
+                        <option value="rn">RN</option>
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="ap">AP</option>
+                        <option value="am">AM</option>
+                        <option value="ba">BA</option>
+                        <option value="ce">CE</option>
+                        <option value="df">DF</option>
+                        <option value="es">ES</option>
+                        <option value="go">GO</option>
+                        <option value="ma">MA</option>
+                        <option value="mt">MT</option>
+                        <option value="ms">MS</option>
+                        <option value="mg">MG</option>
+                        <option value="pa">PA</option>
+                        <option value="pb">PB</option>
+                        <option value="pr">PR</option>
+                        <option value="pe">PE</option>
+                        <option value="pi">PI</option>
+                        <option value="rj">RJ</option>
+                        <option value="rs">RS</option>
+                        <option value="ro">RO</option>
+                        <option value="rr">RR</option>
+                        <option value="sc">SC</option>
+                        <option value="sp">SP</option>
+                        <option value="se">SE</option>
+                        <option value="to">TO</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label> <input type="text" list="cidades" id="cidade" />
+                    <datalist id="cidades">
+                        <option value="natal">Natal</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="brasilia">Brasília</option>
+                        <option value="salvador">Salvador</option>
+                        <option value="fortaleza">Fortaleza</option>
+                        <option value="belohorizonte">Belo Horizonte</option>
+                        <option value="manaus">Manaus</option>
+                        <option value="curitiba">Curitiba</option>
+                        <option value="recife">Recife</option>
+                        <option value="goiania">Goiânia</option>
+                        <option value="belem">Belém</option>
+                        <option value="portoalegre">Porto Alegre</option>
+                        <option value="guarulhos">Guarulhos</option>
+                        <option value="campinas">Campinas</option>
+                        <option value="saoluis">São Luís</option>
+                        <option value="saogoncalo">São Gonçalo</option>
+                        <option value="maceio">Maceió</option>
+                        <option value="duquedecaxias">Duque de Caxias</option>
+                        <option value="campogrande">Campo Grande</option>
+                        <option value="teresina">Teresina</option>
+                        <option value="joaopessoa">João Pessoa</option>
+                    </datalist>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <div>
+                    <span>Formação: </span>
+                    <label>
+                        <input type="radio" name="formacao" value="medio" /> Medio Completo
+                    </label>
+                    <label>
+                        <input type="radio" name="formacao" value="superiorincompleto" /> Superior Incompleto
+                    </label>
+                    <label>
+                        <input type="radio" name="formacao" value="superior" /> Superior Completo
+                    </label>
+                </div>
+                <div>
+                    <span>Areas de interesse: </span>
+                    <label><input type="checkbox" name="areas" value="prog" /> Progamação </label>
+                    <label><input type="checkbox" name="areas" value="design" /> Design </label>
+                    <label><input type="checkbox" name="areas" value="manuten" /> Manutenção </label>
+                </div>
+                <div>
+                    <span>Currículo: </span>
+                    <label><input type="file" id="curriculo" /> </label>
+                </div>
+                <div>  
+                    <label >Descrição curta:<textarea id="descricurta"></textarea></label> 
+                </div>
+            </fieldset>
+            <div>
+                <label id="lporemail">Receber retorno por e-mail <input type="checkbox" value="poremail" /></label>
+            </div>
+         
+            <input type="submit" value="Enviar" />
+
+        </form>
+
+
+    </body>
+</html>
