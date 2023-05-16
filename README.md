@@ -1,5 +1,37 @@
-# DesignWeb
-Segundo ano de design
+# DesignWeb II
+
+**Aula** | **Conteudo** |
+:--: | :--: |
+03 | Inicialização do html, tags que contem o cateudo e "Configurações" |
+04 | Hierarquia de Titulos e Lista |
+05 | CSS incorporado, externo e inline |
+06 | Alterar estilo da lista |
+07 | Adicionando imagem, sombra  |
+08 | Imagem responsiva |
+09 | Estilizando o Background |
+11 | Display inline |
+12 | Ancora/Links e Mouse sobre elemento |
+13 | Atividade de reprodução do Cardapio |
+14 | Tabelas |
+15 | Introdução aos formularios |
+16 | Explorando mais formularios |
+17 | Atividade de atulizar o Cardapio com formularios |
+17 - Copia | Atividade de atulizar o Cardapio com formularios |
+18 | Cabeçalhos, Seções e Rodape |
+19 | Atividade de reprodução com Cabeçalhos, Seções e Rodape |
+20 | Display Flex |
+21 | Atividade de reprodução com display Flex |
+23 | Organizar elementos flex |
+24 | Atividade de reprodução tematica Vingadores |
+25 | Display Grid |
+26 | Atividade de reprodução com Grid |
+27 | Position e Modal |
+28 | Postion e Menuzinhos |
+29 | Responsividade |
+30 | Atividade de responsividade |
+31 | Transition |
+32 | Animation |
+Bootstrap | Importando o FrameWork Bootstrap |
 
 ## 
 
