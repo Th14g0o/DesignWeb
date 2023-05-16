@@ -31,7 +31,7 @@
 30 | Atividade de responsividade |
 31 | Transition |
 32 | Animation |
-Bootstrap | Importando o FrameWork Bootstrap |
+Bootstrap | Introdução o FrameWork Bootstrap |
 
 ## 
 
