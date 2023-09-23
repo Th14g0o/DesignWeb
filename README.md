@@ -35,6 +35,7 @@
 32 | Animation |
 Bootstrap | Introdução ao FrameWork Bootstrap |
 
+
 ![Replit](https://img.shields.io/badge/-Replit-1C2333?logo=replit&style=for-the-badge)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-ffffff?logo=visualstudiocode&style=for-the-badge&logoColor=blue)
  
